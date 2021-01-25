@@ -1,9 +1,16 @@
-import { User } from './User';
-import { Company } from './Company';
-const user = new User();
+// import { User } from './User';
+// import { Company } from './Company';
 
-console.log(user);
+// const user = new User();
+// console.log(user);
 
-const company = new Company();
+// const company = new Company();
+// console.log(company);
 
-console.log(company);
+new google.maps.Map(document.getElementById('map'), {
+  zoom: 1,
+  center: {
+    lat: 0,
+    lng: 0,
+  },
+});
